@@ -13,6 +13,39 @@
   }
 }
 
+.background-color {
+  background-color: #2D086B;
+}
+
+.background-color-2 {
+  background: linear-gradient(151.55deg, rgba(166, 89, 244, 0.35) 1.7%, rgba(73, 18, 129, 0.11) 112.38%);
+  border-radius: 20px;
+}
+
+.background-color-3 {
+  background: linear-gradient(180deg, rgba(166, 89, 244, 0.35) 28.26%, rgba(193, 131, 255, 0) 114.6%);
+
+  border-radius: 20px;
+}
+
+.background-color-4 {
+  background: linear-gradient(180deg, rgba(166, 89, 244, 0.35) 28.26%, rgba(193, 131, 255, 0) 114.6%);
+
+
+}
+
+.background-color-5 {
+  background: linear-gradient(180deg, rgba(253, 251, 255, 0.35) 0%, #C183FF 100%);
+  border-radius: 10px;
+
+}
+
+.b-none {
+  border: none !important;
+}
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +65,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

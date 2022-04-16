@@ -90,11 +90,11 @@ const Home = () => {
 
                             <Container className='my-3'>
                                 <Row className='Container mx-auto '>
-                                    <Col sm><div style={{ width: '250px', height: '80px' }} className='background-color-3 mx-auto my-1'>
+                                    <Col sm><div style={{ width: '250px', height: '80px' }} className='background-color-3 mx-auto border-1px my-1'>
                                         <h5 className='text-white text-center'>TOTAL LOCKED</h5>
                                     </div></Col>
 
-                                    <Col sm><div style={{ width: '250px', height: '80px' }} className='background-color-3 mx-auto my-1'>
+                                    <Col sm><div style={{ width: '250px', height: '80px' }} className='background-color-3 mx-auto border-1px my-1'>
                                         <h5 className='text-white text-center'>RESERVED</h5>
                                     </div></Col>
                                 </Row>
@@ -109,45 +109,45 @@ const Home = () => {
                                 <h4 className='text-white'>YOUR ACCOUNT</h4>
                                 <InputGroup className="mb-3 ">
                                     <FormControl
-                                        className='background-color-4 b-none'
+                                        className='background-color-4 '
                                         placeholder=""
                                         aria-label=""
                                         aria-describedby="basic-addon2"
                                     />
-                                    <InputGroup.Text className='background-color-5 b-none text-white' id="basic-addon2">MAX</InputGroup.Text>
+                                    <InputGroup.Text className='background-color-5  text-white' id="basic-addon2">MAX</InputGroup.Text>
                                 </InputGroup>
                             </Container>
 
                             <Container className='my-3'>
                                 <Row className='Container mx-auto'>
-                                    <Col sm><div style={{ width: '200px', height: '80px' }} className='background-color-3 mx-auto my-1'>
+                                    <Col sm><div style={{ width: '200px', height: '80px' }} className='background-color-3 mx-auto border-1px my-1'>
                                         <h5 className='text-white text-center'>STAKED</h5>
                                     </div></Col>
 
-                                    <Col sm><div style={{ width: '200px', height: '80px' }} className='background-color-3 mx-auto my-1'>
+                                    <Col sm><div style={{ width: '200px', height: '80px' }} className='background-color-3 mx-auto border-1px my-1'>
                                         <h5 className='text-white text-center'>Climed</h5>
                                     </div></Col>
                                 </Row>
                             </Container>
                             <Container>
                                 <Row className='Container mx-auto'>
-                                    <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto my-1'>
+                                    <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto border-1px my-1'>
                                         <h5 className='text-white text-center'>MAX PAYOUT</h5>
                                     </div></Col>
-                                    <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto my-1'>
+                                    <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto border-1px my-1'>
                                         <h5 className='text-white text-center'>TO CLAM</h5>
                                     </div></Col>
-                                    <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto my-1'>
+                                    <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto border-1px my-1'>
                                         <h5 className='text-white text-center'>REFERRALS</h5>
                                     </div></Col>
                                 </Row>
                             </Container>
                             <Container>
                                 <Row className='Container mx-auto w-75 my-3'>
-                                    <Col sm><div style={{ width: '180px', height: '60px' }} className='background-color-3 mx-auto my-1'>
+                                    <Col sm><div style={{ width: '180px', height: '60px' }} className='background-color-3 mx-auto border-1px my-1'>
                                         <h5 className='text-white text-center'>COMPUND</h5>
                                     </div></Col>
-                                    <Col sm><div style={{ width: '180px', height: '60px' }} className='background-color-3 mx-auto my-1'>
+                                    <Col sm><div style={{ width: '180px', height: '60px' }} className='background-color-3 mx-auto border-1px my-1'>
                                         <h5 className='text-white text-center'>CLAIM</h5>
                                     </div></Col>
                                 </Row>
@@ -160,16 +160,16 @@ const Home = () => {
                     </Row>
                     <Container>
                         <Row className='Container mx-auto'>
-                            <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto my-1'>
+                            <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto border-1px my-1'>
                                 <h5 className='text-white text-center'>MAX PAYOUT</h5>
                             </div></Col>
-                            <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto my-1'>
+                            <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto border-1px my-1'>
                                 <h5 className='text-white text-center'>TO CLAM</h5>
                             </div></Col>
-                            <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto my-1'>
+                            <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto border-1px my-1'>
                                 <h5 className='text-white text-center'>REFERRALS</h5>
                             </div></Col>
-                            <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto my-1'>
+                            <Col sm><div style={{ width: '180px', height: '80px' }} className='background-color-3 mx-auto border-1px my-1'>
                                 <h5 className='text-white text-center '>REFERRALS</h5>
                             </div></Col>
                         </Row>
